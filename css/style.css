@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'PantonEB';
+  src: url('../fonts/Panton-ExtraBold.eot');
+  src: url('../fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-ExtraBold.woff2') format('woff2'), url('../fonts/Panton-ExtraBold.woff') format('woff'), url('../fonts/Panton-ExtraBold.ttf') format('truetype'), url('../fonts/Panton-ExtraBold.svg#Panton-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PantonB';
+  src: url('../fonts/Panton-Black.eot');
+  src: url('../fonts/Panton-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-Black.woff2') format('woff2'), url('../fonts/Panton-Black.woff') format('woff'), url('../fonts/Panton-Black.ttf') format('truetype'), url('../fonts/Panton-Black.svg#Panton-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PantonL';
+  src: url('../fonts/Panton-Light.eot');
+  src: url('../fonts/Panton-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-Light.woff2') format('woff2'), url('../fonts/Panton-Light.woff') format('woff'), url('../fonts/Panton-Light.ttf') format('truetype'), url('../fonts/Panton-Light.svg#Panton-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PantonSB';
+  src: url('../fonts/Panton-SemiBold.eot');
+  src: url('../fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-SemiBold.woff2') format('woff2'), url('../fonts/Panton-SemiBold.woff') format('woff'), url('../fonts/Panton-SemiBold.ttf') format('truetype'), url('../fonts/Panton-SemiBold.svg#Panton-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+.pantoneb {
+  font-family: 'PantonEB', sans-serif;
+}
+.pantonb {
+  font-family: 'PantonB', sans-serif;
+}
+.pantonl {
+  font-family: 'PantonL', sans-serif;
+}
+.pantonsb {
+  font-family: 'PantonSB', sans-serif;
+}
+.header-top-block {
+  height: 142px;
+}
+.header-title {
+  margin-top: 5rem;
+}
+.header-title_text {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'PantonEB', sans-serif;
+}
+.header-call {
+  margin-top: 4rem;
+  line-height: 12px;
+}
+.header-call_phone {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #000;
+  font-family: 'PantonEB', sans-serif;
+}
+.header-call_btn {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+  border: solid 2px #000;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  font-family: 'PantonSB', sans-serif;
+}
+.navigation-block {
+  background-color: #000;
+}
+.navigation-items {
+  display: inline-block;
+  padding: 1.2%;
+  margin-top: 0.8rem;
+  font-size: 20px;
+  font-family: 'PantonL', sans-serif;
+}
+.navigation-items:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+.navigation-link {
+  color: #fff;
+}
+.main {
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+.main-logo {
+  width: 400px;
+  margin-top: 25rem;
+}
+.main-text_1 {
+  font-size: 30px;
+  margin: 10px 0 5px 0;
+  font-family: 'PantonB', sans-serif;
+  text-transform: uppercase;
+}
+.main-text_2 {
+  font-size: 22px;
+  padding-bottom: 40px;
+  font-family: 'PantonSB', sans-serif;
+  text-transform: uppercase;
+}
+.main-text_3 {
+  font-size: 22px;
+  font-family: 'PantonSB', sans-serif;
+}
+.main-pointer {
+  margin-left: 50rem;
+}
+.main-btn {
+  background-color: #059feb;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-family: 'PantonEB', sans-serif;
+}
+.main-text_4 {
+  padding: 10rem 0 10px 0;
+  font-size: 18px;
+  font-family: 'PantonSB', sans-serif;
+}
+.about {
+  height: 60vh;
+}
+.about-title {
+  margin: 8rem 0 6rem 0;
+  text-transform: uppercase;
+  font-family: 'PantonEB', sans-serif;
+}
+.about-title-1 {
+  border-left: solid 5px #059feb;
+  padding-left: 8px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'PantonEB', sans-serif;
+}
+.about-title-1_img {
+  width: 70px;
+}
+.about-title-2 {
+  border-left: solid 5px #059feb;
+  padding-left: 8px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'PantonEB', sans-serif;
+}
+.about-title-2_img {
+  width: 70px;
+}
+.about-title_text {
+  font-family: 'PantonSB', sans-serif;
+  font-size: 14px;
+}
